@@ -1,0 +1,35 @@
+body {
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+@keyframes card {
+    0% {background-color: #9e0059;}
+    25% {background-color: #ff0054;}
+    50% {background-color: rgb(7, 106, 106);}
+    75%{background-color: rgb(42, 7, 107);}
+    100%{background-color: #bb23a4;}
+}
+.avatar {
+    width: 150px;
+    border-radius: 20px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #4e2425;
+    color: #e9c46a;
+    border-bottom: 6px solid #e76f51;
+    border-left: 6px solid #e76f51;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px #f4a261, 1px 1px 1px #264653;
+    box-shadow: 10px 10px 5px 2px #001219 inset, 10px 10px 5px 2px #264653;
+    animation: card 20s 3s;
+}
+.card:hover {
+    background-color: #0a7415;
+}
